@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="5.0" method="upgrade">
+    <name>com_posts2article</name>
+    <author>Твой Имя</author>
+    <creationDate>February 2025</creationDate>
+    <version>1.0.0</version>
+    <description>Компонент для создания статей из тем Kunena</description>
+    <files folder="site">
+        <filename>index.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+    </files>
+    <administration>
+        <files folder="admin">
+            <filename>index.php</filename>
+            <filename>controller.php</filename>
+            <folder>views</folder>
+        </files>
+        <menu>COM_POSTS2ARTICLE</menu>
+    </administration>
+</extension>
